@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit';
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%); 
+  margin-bottom: 20px;;
+}
+
+.card {
+  height: 550px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 25px;
+  padding: 20px;
+
+}
+
+.image-equilibrium {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  cursor: pointer;
+  ;
+}
+
+.card-info {
+  width: 100%;
+  height: 225px;
+  padding-top: 20px;
+}
+
+.image-avatar{
+  height: 30px;
+  border: solid 1px white;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.nft {
+  margin-bottom: 20px;
+}
+
+.nft-info {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.etherium-info {
+  width: 50%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.days-left {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+/* Text Styling */
+.equilibrium-number, .avatar-name {
+  color: hsl(0, 0%, 100%) ;
+  cursor: pointer;
+}
+
+.equilibrium-number {
+  font-weight: 600;
+}
+
+.etherium {
+  color: hsl(178, 100%, 50%);
+}
+
+/*icon styling */
+.icon-ethereum {
+  float: left;
+  margin-right: 5px;
+}
+
+.days {
+  float: right;
+  margin-left: 5px;
+}
+
+/* Active States*/
+
+.equilibrium-number:active {
+  color:hsl(178, 100%, 50%);
+}
+
+.avatar-name:active {
+  color:hsl(178, 100%, 50%);
+}
+
+@media only screen and (max-width: 375px) {
+  {width: 100%;}
+}
+
+@media only screen and (max-width: 1440px) {
+  {width: 100%;}
+}
